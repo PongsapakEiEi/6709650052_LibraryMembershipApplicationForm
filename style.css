@@ -8,26 +8,28 @@ body {
     margin: 0;
 }
 
-h2 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-/* ตั้งค่ากรอบฟอร์ม /
 form {
     background-color: #fff;
     padding: 20px;
     width: 400px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; 
 }
 
-/ สไตล์สำหรับ label และ input /
+h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
 label {
     font-weight: bold;
     color: #333;
     display: block;
+    text-align: left; 
     margin-bottom: 5px;
 }
 
@@ -44,7 +46,7 @@ select {
     font-size: 14px;
 }
 
-/ สไตล์สำหรับ radio buttons และ checkbox /
+/* สไตล์สำหรับ radio buttons และ checkbox */
 input[type="radio"],
 input[type="checkbox"] {
     margin-right: 10px;
@@ -54,7 +56,7 @@ label[for="subscribe"] {
     font-weight: normal;
 }
 
-/ สไตล์ปุ่มส่งข้อมูล */
+/* สไตล์ปุ่มส่งข้อมูล */
 input[type="submit"] {
     width: 100%;
     background-color: #007bff;
